@@ -20,7 +20,7 @@ data "aws_security_group" "sg" {
 }
 
 data "aws_ami" "ami" {
-  most_recent      = true
+  most_recent = true
   owners      = ["amazon"]
 
   filter {
