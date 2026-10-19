@@ -1,0 +1,6 @@
+aws_region          = "eu-west-1"
+project_id          = "cmtr-otuokx4e-instance"
+vpc_name            = "cmtr-otuokx4e-vpc"
+public_subnet_name  = "cmtr-otuokx4e-public-subnet-1"
+security_group_name = "cmtr-otuokx4e-sg"
+ec2_instance        = "cmtr-otuokx4e"
