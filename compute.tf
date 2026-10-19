@@ -5,6 +5,6 @@ resource "aws_instance" "instance" {
   security_groups = [data.aws_security_group.sg.id]
 
   tags = {
-    Name = var.ec2_instance
+    Name = var.project_id
   }
 }
